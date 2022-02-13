@@ -1,0 +1,31 @@
+{
+  "name": "Greeter",
+  "version": "1.0.0",
+  "description": "Greeter test L1 to L2",
+  "author": "QuickCreation Lab",
+  "license": "Apache-2.0",
+  "private": "true",
+  "engines": {
+    "node": ">= 8.0.0 < 17.0.0",
+    "npm": "^6.0.0",
+    "yarn": "^1.0.0"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/arb-shared-dependencies"
+    ]
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.8.3",
+    "arb-ts": "^1.0.0-beta.4"
+  },
+  "dependencies": {
+    "arb-shared-dependencies": "^1.0.0",
+    "dotenv": "^15.0.0"
+  }
+}
